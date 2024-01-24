@@ -30,4 +30,4 @@ jobs:
           body: "Automated updates of translations pulled from Transifex"
           branch: "chore/update-transifex"
           author: "OpenMRS Bot <infrastructure@openmrs.org>"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
